@@ -42,3 +42,13 @@
 - To uninstall run `npm uninstall 'packagename'`.
 
 ---
+
+## Events
+- Event-driven programming
+- Used heavily in Node.js
+- on - listen for an event
+- emit - emit an event
+- possible in server side
+- listen for specific events and register functions that will execute in response for those events.
+- Once events takes place callback func fires.
+- 
