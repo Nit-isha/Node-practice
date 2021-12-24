@@ -17,3 +17,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(5000);
 //localhost:5000
+//listen is async
