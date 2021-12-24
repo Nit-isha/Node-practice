@@ -46,9 +46,19 @@
 ## Events
 - Event-driven programming
 - Used heavily in Node.js
-- on - listen for an event
-- emit - emit an event
+- `on` - listen for an event
+- `emit` - emit an event
 - possible in server side
 - listen for specific events and register functions that will execute in response for those events.
 - Once events takes place callback func fires.
-- 
+  
+---
+
+## Streams
+
+- Used to read or write sequentially.
+- writable, Readable, Duplex, Transform.
+- Extend events emitter class.
+- data is read in chunks each for 64KB.
+  
+---
